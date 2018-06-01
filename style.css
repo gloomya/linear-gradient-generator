@@ -1,0 +1,64 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+	background: linear-gradient(to right, rgb(31, 235, 230), rgb(96, 120, 234)); /* Standard syntax */
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: 1.2px;
+    text-shadow: 4px 2px #000000;
+    color:#ffffff;
+}
+h2 {
+    text-shadow: 2px 2px #FFFFFF;
+}
+.color1, .color2 {
+    border: 4px solid #FFFFFF;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+textarea {
+    font-size: 1em;
+    min-width: 320px;
+    min-height: 80px;
+    padding: 2%;
+    width: 60%;
+    border: 4px solid #FFFFFF;
+    font-family: 'Courier New',sans-serif;
+}
+button {
+    text-align: center;
+    margin-right: 10px;
+    padding: 20px 40px;
+    background: none;
+    font-size: 1.8em;
+    border: 6px solid #FFFFFF;
+    cursor: pointer;
+    text-shadow: 2px 2px #FFFFFF;
+}
+a {
+    color: #FFFFFF;
+}
+.wrapper {
+    padding: 5%;
+    width:50%;
+}
+.buttons {
+    padding-top: 5%;
+    width: 100%;
+}
+.more {
+    padding-top: 40px;
+}
+.copy {
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 2%;
+}
+.tooltip {
+    display: none;
+}
+.buttons span {
+    padding: 2% 4%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
