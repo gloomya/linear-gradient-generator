@@ -34,7 +34,8 @@ button {
     font-size: 1.8em;
     border: 6px solid #FFFFFF;
     cursor: pointer;
-    text-shadow: 2px 2px #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    color: #ffffff;
 }
 a {
     color: #FFFFFF;
